@@ -3,9 +3,9 @@
 
 //#define      HOST     "192.168.0.101"
 #define      HOST     "jacc.dyndns-server.com"
-#define      USER     "jacc"
-#define      PSW      "veronica"
-#define      DB       "jacc"
+#define      USER     ""
+#define      PSW      ""
+#define      DB       ""
 
 #define    LISTEN_PORT     7777
 #define    CONNECT_PORT    7777   // For debugging
