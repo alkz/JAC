@@ -1,5 +1,5 @@
 My project developed for my final exam of secondary school, I don't wanna explain what is it now, maybe another time :3.
-I developed the client for Win(but I used wxWidgets, so you can compile it for Linux with not so many problems), the server is written for Linux.
+I developed the client for Win(but I used wxWidgets, so you can compile it for Linux with not so many problems), the server is written for Linux(even this written with wxWidgets)
 
 Edit 05/11/2011: 
     I managed to compile the Client even on Linux with no problems, but I didn't test it yet :P.
