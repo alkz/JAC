@@ -43,6 +43,9 @@
 #include "JACCFrm.h"
 #include "JACCMain.h"
 
+class JACCMain;
+class JACCFrm;
+
 class JACCConv : public wxFrame
 {
     friend class JACCMain;

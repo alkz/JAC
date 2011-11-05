@@ -43,10 +43,16 @@
 
 #include "Config.h"
 
-#include <windows.h>
-#include <mysql/mysql.h>
+#ifdef _WIN32
+    #include <windows.h>
+    #include <mysql/mysql.h>
+#else
+    #include <mysql.h>
+#endif
 #include <wx/url.h>
 #include <wx/sstream.h>
+
+class JACCMain;
 
 #include "JACCMain.h"
 

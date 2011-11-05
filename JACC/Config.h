@@ -1,7 +1,7 @@
 
 
 
-//#define      HOST     "192.168.0.101"
+//#define      HOST     "192.168.0.2"
 #define      HOST     "jacc.dyndns-server.com"
 #define      USER     ""
 #define      PSW      ""

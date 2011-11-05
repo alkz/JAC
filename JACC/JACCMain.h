@@ -45,6 +45,9 @@
 #include <map>
 #include <wx/socket.h>
 
+class JACCFrm;
+class JACCConv;
+
 #include "JACCFrm.h"
 #include "JACCConv.h"
 
