@@ -1,4 +1,9 @@
 My project developed for my final exam of secondary school, I don't wanna explain what is it now, maybe another time :3.
 I developed the client for Win(but I used wxWidgets, so you can compile it for Linux with not so many problems), the server is written for Linux.
 
-Edit 05/11/2011: I managed to compile it for Linux with no problems, but I didn't test it yet :P.
+Edit 05/11/2011: 
+    I managed to compile the Client even for Linux with no problems, but I didn't test it yet :P.
+    To compile it:
+        g++ `wx-config --libs` `wx-config --libs` `mysql_config --cflags` `mysql_config --libs` -o JACC ./*.h ./*.cpp
+
+    To compile it for Windows personally I used wxDevC++
